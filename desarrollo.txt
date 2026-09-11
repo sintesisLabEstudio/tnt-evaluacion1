@@ -1,0 +1,60 @@
+Instrucciones:
+    Deberá realizar los ejercicios indicados según lo aprendido y aplicado en clases 
+    para la construcción de una aplicación Android en lenguaje Kotlin.
+    No está permitido utilizar herramientas externas que generen código de manera automática, 
+    si se sorprende al alumno, se le colocara inmediatamente la nota mínima.
+    El trabajo al ser finalizado deberá ser enviado a Canvas.
+Menú:
+    Los ejercicios que se presentarán a continuación deberá crearlos en un solo proyecto 
+    el cual debe poseer un menú principal de acceso 
+    para cada una de las actividades realizadas, 
+    así como también cada actividad debe poder volver al menú principal (10 puntos).
+Ejercicio 1 (25 puntos)
+  Crear una pantalla que permita 
+    ƒ ingresar 
+            nombre de una persona, 
+            la edad y 
+            el área al que pertenece, 
+            los cuales deben ser ingresados por el usuario 
+            y que posea las siguientes características:
+            -	ƒ Que al presionar el botón Enviar valide 
+                    que los campos no se encuentren vacíos. 
+            -	ƒ Que solo se pueda ingresar 
+                        personas con edad mayor o igual a 18, 
+                    en caso contrario envie un mensaje que indique que 
+                        no es posible ingresar ya que su edad no cumple los requisitos.
+            -	ƒ El área debe ser ingresada como un campo de texto, 
+                        el cual sí puede encontrarse vacío a diferencia de los registros anteriores.
+            -	ƒ En base a los valores ingresados,
+                        envíe la información a una siguiente pantalla que 
+                            indique mediante textos (label) toda la información,
+                            y que en la parte superior como título diga “Datos de postulante”.
+            -	ƒ Si no se ingresó texto en el campo área, 
+                            este desplegará un texto que diga SIN ÁREA
+            -	ƒ La segunda pantalla debe poseer un botón volver
+                            para la pantalla de ingreso de datos.
+                            [se implemento en boton volver]
+                            [se editaron layouts ajuste posicionamiento y referencias de ejercicio1 y detalle ]
+Ejercicio 2 (25 puntos)
+   ƒ Determinar mediante un programa cuánto dinero es pagado en impuestos 
+        (AFP, Salud y total) 
+        por una persona durante un año de trabajo, 
+            para ello debe saber lo siguiente:
+                ƒ a.	El campo sueldo bruto 
+                        solo debe recibir números enteros.
+                ƒ b.	El sueldo bruto 
+                        solo pertenece a lo que gana en un mes.
+                ƒ c.	Debe validar 
+                        que el campo no se encuentre vacío.
+                ƒ d.	El impuesto debe 
+                        separarlo en dos, 
+                        AFP y Salud, 
+                        donde AFP pertenece a un 7% 
+                        y salud a un 10%.
+                ƒ e.	Debe mostrar en pantalla 
+                        el total del sueldo ganado en un año 
+                        con los descuentos aplicados, 
+                        el total que se pagó de AFP y salud en un año
+                        [se agrego otro textview para presentar el total]
+                        [se ajustaron los controles para evitar superposicion]
+        [se editaron layouts ajuste posicionamiento y referencias de ejercicio2 ]        
